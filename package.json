@@ -1,0 +1,23 @@
+{
+  "name": "Birthday-Present-Generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "code" : "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^26.0.22",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.5"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "env-var": "^7.0.0"
+  }
+}

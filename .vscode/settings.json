@@ -1,0 +1,5 @@
+{
+	"git.ignoreLimitWarning": true,
+	"csharp.suppressDotnetInstallWarning": true,
+	"csharp.suppressProjectJsonWarning": true
+}
