@@ -1,7 +1,6 @@
 export function sayHello(name: string) {
   return `Hello ${name}!`
 }
-import * as readline from 'readline';
 
 let present =
 {
