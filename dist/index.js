@@ -1,17 +1,25 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.getpresent = exports.sayHello = void 0;
+var presents_1 = require("./presents");
+var mypresents = presents_1.present;
+console.clear();
 function sayHello(name) {
     return "Hello " + name + "!";
 }
 exports.sayHello = sayHello;
-var present = {
-    "one": "Enter The Gungeon"
-};
 function getpresent(name) {
-    var names = eval("present." + name);
+    var names = eval("mypresents." + name);
     return names;
 }
 exports.getpresent = getpresent;
-console.log(getpresent("one"));
-console.log("EEEE");
+var present_list = [
+    getpresent("one"),
+    getpresent("two"),
+    getpresent("three"),
+    getpresent("four"),
+    getpresent("five")
+];
+for (var i = 0; i < present_list.length; i++) {
+    console.log((i + 1) + ": " + present_list[i]);
+}
