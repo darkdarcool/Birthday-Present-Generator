@@ -1,3 +1,4 @@
+[![.github/workflows/Typescript.yml](https://github.com/darkdarcool/Birthday-Present-Generator/actions/workflows/Typescript.yml/badge.svg)](https://github.com/darkdarcool/Birthday-Present-Generator/actions/workflows/Typescript.yml)
 # Birthday-Present-Generator
 Just my B-Day presents generator!
 
