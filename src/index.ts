@@ -3,19 +3,6 @@ export function sayHello(name: string) {
 }
 import * as readline from 'readline';
 
-let rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout
-});
-
-rl.question('What is is passcode? ', (answer) => {
-  answer = answer.toLowerCase()
-  if (answer != "04308") throw new Error("You are NOT darkdarcool. Go to hell");
-  else {
-    ;
-  }
-  rl.close();
-});
 let present =
 {
   "one" :
