@@ -13,4 +13,4 @@ jobs:
           user-name: "darkdarcool"
           user-email: "darkdarcool@gmail.com"
           message: "Automatically built unbuilt typescript"
-          directories: ./, dist/
+          directories: ./
