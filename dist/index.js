@@ -14,3 +14,4 @@ function getpresent(name) {
 }
 exports.getpresent = getpresent;
 console.log(getpresent("one"));
+console.log("EEEE");
