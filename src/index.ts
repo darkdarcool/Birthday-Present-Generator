@@ -13,3 +13,4 @@ export function getpresent(name: string) {
   return names
 }
 console.log(getpresent("one"))
+console.log("EEEE")
