@@ -18,7 +18,6 @@ var present_list = [
     getpresent("two"),
     getpresent("three"),
     getpresent("four"),
-    getpresent("five")
 ];
 for (var i = 0; i < present_list.length; i++) {
     console.log((i + 1) + ": " + present_list[i]);
