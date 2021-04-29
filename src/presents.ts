@@ -1,13 +1,15 @@
 export const present =
 {
-  "one":
+  one:
     "Enter The Gungeon",
-  "two":
+  two:
     "Hyrule Warriors | Age of Calamity",
-  "three":
+  three:
     "Phone",
-  "four":
+  four:
     "Laptop",
-  "five":
-    "Valorant"
+  five:
+    "Valorant",
+  six:
+    "Zelda Breath of The Wild DLC's(there are two)",
 }

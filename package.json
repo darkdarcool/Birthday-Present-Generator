@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "test": "jest",
-    "code" : "node dist/index.js"
+    "code": "node dist/index.js"
   },
   "keywords": [],
   "author": "",
